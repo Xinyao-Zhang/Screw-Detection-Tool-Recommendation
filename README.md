@@ -1,9 +1,9 @@
-# Intro
+## Intro
 We propose the following computer vision framework for screw detection and related tool recommendation for end-of-life electronics disassembly: \
 ![framework](https://github.com/Xinyao-Zhang/Screw-Detection-and-Tool-Recommendation-for-Robotic-Disassembly/blob/528ab9892400b95a67f99d8ee1f7aa851b87a54b/framework.png)\
 More details can be found in the article [Automatic screw detection and tool recommendation system for robotic disassembly](https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/145/3/031008/1148469/Automatic-Screw-Detection-and-Tool-Recommendation?redirectedFrom=fulltext).
 
-# Citation
+## Citation
 If you wish to cite the work, you may use the following:
 ```ruby
 @article{10.1115/1.4056074,
