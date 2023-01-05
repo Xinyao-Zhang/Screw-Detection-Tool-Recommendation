@@ -1,8 +1,9 @@
-# Screw-Detection-and-Tool-Recommendation-for-Robotic-Disassembly
-We propose a computer vision framework for detecting screws and recommending related tools for disassembly.
-More details can be founed in the paper of Automatic Screw Detection and Tool Recommendation System for Robotic Disassembly, X Zhang, K Eltouny, X Liang, S Behdad, Journal of Manufacturing Science and Engineering, 2023.
+# Introduction
+We propose a computer vision framework for screw detection and related tool recommendation for end-of-life electronics disassembly.
+More details can be found in the article [Automatic screw detection and tool recommendation system for robotic disassembly] (https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/145/3/031008/1148469/Automatic-Screw-Detection-and-Tool-Recommendation?redirectedFrom=fulltext).
+
 # Citation
-If you wish to cite the work, you may use the following:
+<!-- If you wish to cite the work, you may use the following:
 @article{10.1115/1.4056074,
     author = {Zhang, Xinyao and Eltouny, Kareem and Liang, Xiao and Behdad, Sara},
     title = "{Automatic Screw Detection and Tool Recommendation System for Robotic Disassembly}",
@@ -17,4 +18,4 @@ If you wish to cite the work, you may use the following:
     url = {https://doi.org/10.1115/1.4056074},
     note = {031008},
     eprint = {https://asmedigitalcollection.asme.org/manufacturingscience/article-pdf/145/3/031008/6953322/manu\_145\_3\_031008.pdf},
-}
+} -->
