@@ -1,6 +1,6 @@
 # Introduction
 We propose a computer vision framework for screw detection and related tool recommendation for end-of-life electronics disassembly.
-More details can be found in the article [Automatic screw detection and tool recommendation system for robotic disassembly] (https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/145/3/031008/1148469/Automatic-Screw-Detection-and-Tool-Recommendation?redirectedFrom=fulltext).
+More details can be found in the article [Automatic screw detection and tool recommendation system for robotic disassembly](https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/145/3/031008/1148469/Automatic-Screw-Detection-and-Tool-Recommendation?redirectedFrom=fulltext).
 
 # Citation
 <!-- If you wish to cite the work, you may use the following:
