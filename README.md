@@ -3,6 +3,9 @@ We propose the following computer vision framework for screw detection and relat
 ![framework](https://github.com/Xinyao-Zhang/Screw-Detection-and-Tool-Recommendation-for-Robotic-Disassembly/blob/528ab9892400b95a67f99d8ee1f7aa851b87a54b/framework.png)\
 More details can be found in the article [Automatic screw detection and tool recommendation system for robotic disassembly](https://asmedigitalcollection.asme.org/manufacturingscience/article-abstract/145/3/031008/1148469/Automatic-Screw-Detection-and-Tool-Recommendation?redirectedFrom=fulltext).
 
+## Dataset
+The dataset includes three types of screws, Torx security screws on the desktop hard drive, Phillips screws on the back cover of a Dell laptop, and Pentalobe screws on the back cover of a Mac laptop. A total of 300 images are recorded at a resolution of 4000x6000 pixels and divided into an 80% training set and a 20% test set. The training dataset is then manually annotated by [LabelImg](https://github.com/qaprosoft/labelImg), a graphical image annotation tool. The rectangular bounding boxes only contain screws and are labeled as a single class named ‘0’, which are stored as .txt files in YOLO format. Specifically, the object coordinates are the x-y coordinates of the center of each bounding box relative to the width and height of each image.
+
 ## Citation
 If you wish to cite the work, you may use the following:
 ```ruby
