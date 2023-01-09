@@ -8,6 +8,10 @@ The dataset includes three types of screws, Torx security screws on the desktop 
 
 The dataset can be obtained by downloading the [drive](https://drive.google.com/file/d/1ozu74q5hYLxtxE8EtQvRhOq13MMP-wTY/view?usp=sharing).
 
+## Screw detection based on YOLOv4
+
+We select the YOLOv4 algorithm as an object detection model to realize the task of detecting screws from end-of-life products. More implementation details can be found in [darknet](https://github.com/AlexeyAB/darknet).
+
 ## Citation
 If you wish to cite the work, you may use the following:
 ```ruby
