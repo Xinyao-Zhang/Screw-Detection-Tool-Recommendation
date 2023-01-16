@@ -6,7 +6,7 @@ More details can be found in the article [Automatic screw detection and tool rec
 ## Dataset
 The dataset includes three types of screws, Torx security screws on the desktop hard drive, Phillips screws on the back cover of a Dell laptop, and Pentalobe screws on the back cover of a Mac laptop. A total of 300 images are recorded at a resolution of 4000x6000 pixels and divided into an 80% training set and a 20% test set. The training dataset is then manually annotated by [LabelImg](https://github.com/qaprosoft/labelImg), a graphical image annotation tool. The rectangular bounding boxes only contain screws and are labeled as a single class named ‘0’, which are stored as .txt files in YOLO format. Specifically, the object coordinates are the x-y coordinates of the center of each bounding box relative to the width and height of each image.
 
-The dataset can be obtained by downloading the [drive](https://drive.google.com/file/d/1ozu74q5hYLxtxE8EtQvRhOq13MMP-wTY/view?usp=sharing).
+The dataset can be obtained by downloading the [drive](https://uflorida-my.sharepoint.com/:u:/g/personal/xinyaozhang_ufl_edu/Ec3VhwFrC5BGm9rZ0LlGr2wBFwE7h-whydMa8L6Qllc8SQ?e=kkfqqs).
 
 ## Screw detection based on YOLOv4
 
