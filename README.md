@@ -12,6 +12,14 @@ The dataset can be obtained by downloading the [drive](https://uflorida-my.share
 
 We select the YOLOv4 algorithm as an object detection model to realize the task of detecting screws from end-of-life products. More implementation details can be found in [darknet](https://github.com/AlexeyAB/darknet).
 
+## Tool recommendation based on EfficientNet V2
+
+Based on screw detection results, screw images are extracted from the full resolution image and passed to an image classification model based on EfficientNet V2 models [1]. Implementation details of EfficientNet V2 family of models can be found in [Keras Applications](https://github.com/keras-team/keras/blob/v2.11.0/keras/applications/efficientnet_v2.py).
+
+References:
+[1] Tan, M., & Le, Q. (2021, July). Efficientnetv2: Smaller models and faster training. In International Conference on Machine Learning (pp. 10096-10106). PMLR.
+
+
 ## Citation
 If you wish to cite the work, you may use the following:
 ```ruby
