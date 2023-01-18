@@ -24,13 +24,13 @@ Using default arguments, training and testing full-resolution images should be p
 
 The following is a description for the included scripts in ToolRecModel directory:
 
-- toolsRecTrainPrep.py 		# extracts screw images for training - screws classes
-- toolsRecTrainPrepNone.py 	# create randomized crops from images for training - none class
-- toolsRecTrainSplit.py		# make the training/validation split
-- toolsRecTrainAug.py		# trains the M-4c classification model (data augmentation enabled, based on EfficientNet V2)
-- toolsRecTestPrep.py		# extracts screw images for testing - screws classes
-- toolsRecTestPrepNone.py	# create randomized crops from images for testing - none class
-- toolsRecTest.py		    # Test the model performance using the test data
+toolsRecTrainPrep.py 		--> extracts screw images for training - screws classes
+toolsRecTrainPrepNone.py 	--> create randomized crops from images for training - none class
+toolsRecTrainSplit.py		--> make the training/validation split
+toolsRecTrainAug.py		    --> trains the M-4c classification model (data augmentation enabled, based on EfficientNet V2)
+toolsRecTestPrep.py		    --> extracts screw images for testing - screws classes
+toolsRecTestPrepNone.py	    --> create randomized crops from images for testing - none class
+toolsRecTest.py		        --> Test the model performance using the test data
 
 
 References:
